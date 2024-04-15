@@ -8,7 +8,7 @@ function mostrarDatosSeries(series) {
     for (var _i = 0, series_1 = series; _i < series_1.length; _i++) {
         var serie = series_1[_i];
         var trElement = document.createElement("tr");
-        trElement.innerHTML = "<td style=\"background-color: #e9ecef;\">".concat(serie.num, "</td>\n        <td style=\"background-color: #e9ecef;\" style=\"color: blue;\">").concat(serie.name, "</td>\n        <td style=\"background-color: #e9ecef;\"> ").concat(serie.channel, "</td>\n        <td style=\"background-color: #e9ecef;\">").concat(serie.season, "</td>");
+        trElement.innerHTML = "<td style=\"background-color: #e9ecef;\">".concat(serie.num, "</td>\n        <td style=\"background-color: #e9ecef; color: blue;\">").concat(serie.name, "</td>\n        <td style=\"background-color: #e9ecef;\"> ").concat(serie.channel, "</td>\n        <td style=\"background-color: #e9ecef;\">").concat(serie.season, "</td>");
         seriesTbody.appendChild(trElement);
         index++;
     }
