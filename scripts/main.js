@@ -26,7 +26,7 @@ function promedioTemporadas(series) {
     }
     var promedio = temporadas / total;
     var trElement = document.createElement("tr");
-    trElement.innerHTML = "<td>Seasons Average:</td>\n    <td>".concat(promedio, "</td>");
+    trElement.innerHTML = "<td >Seasons Average:</td>\n    <td>".concat(promedio, "</td>");
     promedioTbody.appendChild(trElement);
     seriesTable.appendChild(promedioTbody);
 }

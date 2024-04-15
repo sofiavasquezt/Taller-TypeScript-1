@@ -12,7 +12,7 @@ function mostrarDatosSeries(series:Serie[]):void{
     {
         let trElement: HTMLElement = document.createElement("tr")
         trElement.innerHTML = `<td style="background-color: #e9ecef;">${serie.num}</td>
-        <td style ="border: 1px solid gray;" style="background-color: #e9ecef;" style="color: blue;">${serie.name}</td>
+        <td style="background-color: #e9ecef;" style="color: blue;">${serie.name}</td>
         <td style="background-color: #e9ecef;"> ${serie.channel}</td>
         <td style="background-color: #e9ecef;">${serie.season}</td>`
         seriesTbody.appendChild(trElement);
